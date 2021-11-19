@@ -1,0 +1,14 @@
+.card-container {
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ .card-item-1 {
+  flex: 1;
+ }
+ .card-item-3 {
+  flex: 3;
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
+ }
+}
