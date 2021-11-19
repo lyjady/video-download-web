@@ -7,10 +7,16 @@ import {Main} from "./views/main/Main";
 import {PronHub} from "./views/PronHub/PronHub";
 import {NineOnePron} from "./views/91Pron/NineOnePron";
 
+export type VideoStatus = 'download' | 'success' | 'failure'
+
+export type VideoType = 'PronHub' | '91Pron'
+
 export type Video = {
   id: string,
   name: string,
-  size: number
+  size?: number,
+  status: VideoStatus,
+  type: VideoType
 }
 
 function App() {

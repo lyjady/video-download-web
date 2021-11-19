@@ -7,5 +7,13 @@
   border: 1px solid #DDDDDD;
   border-radius: 10px;
   cursor: pointer;
+  .status {
+   display: inline-block;
+   border-radius: 5px;
+   margin-right: 5px;
+   width: 10px;
+   height: 10px;
+   background-color: #ffa940;
+  }
  }
 }
